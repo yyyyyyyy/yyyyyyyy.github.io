@@ -1,0 +1,132 @@
+---
+layout: post
+date:   2018-10-04 13:36:32 +0800
+categories: 
+---
+# Java Thread（一）
+## 一、 线程 & Java线程
+
+什么是线程?
+> 线程，有时被称为轻量进程(Lightweight Process，LWP），是程序执行流的最小单元。一个标准的线程由线程ID，当前指令[指针](https://baike.baidu.com/item/%E6%8C%87%E9%92%88/2878304)(PC），[寄存器](https://baike.baidu.com/item/%E5%AF%84%E5%AD%98%E5%99%A8/187682)集合和[堆栈](https://baike.baidu.com/item/%E5%A0%86%E6%A0%88/1682032)组成。 
+> --摘自百度百科。
+
+从概念上来讲，一个Java的线程创建实际上就对应着一个本地线程的创建。
+
+## 二、 Java线程创建的方式
+目前来说，创建线程可以分为4种方式，不管哪种方式，都是需要重写run()方法。run()方法实际上是一个回调方法，与Java普通方法并没有什么区别。
+```java
+package com.Multithreading;
+
+import java.util.concurrent.*;
+
+public class ThreadTest {
+
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        //1.继承Thread类
+        Thread thread1 = new ThreadTest1();
+        thread1.start();
+        //2.实现Runnable接口
+        Thread thread2 = new Thread(new ThreadTest2());
+        thread2.start();
+        /*以上两种方式实质上并没有什么不同，个人认为不同在于一个是类，一个是接口，接口更利于扩展*/
+        
+        /*3.实现Callable接口
+         *FutureTask实现了RunnableFuture接口，RunnableFuture接口继承了Runnable和Future接口。FutureTask重写了run()方法与get()方法。
+		 *Callable提供了“V call() throws Exception”方法可以返回结果，可以通过Future接口中的get方法获取。*/
+        FutureTask ft = new FutureTask(new ThreadTest3());
+        Thread thread3 = new Thread(ft);
+        thread3.start();
+        System.out.println("thread3 result : " + ft.get());
+        
+        /*4.通过线程池创建线程
+         *实际创建线程池后并没有创建线程，而是在调用execute方法后根据不同的情况来创建线程，后续会通过源码进行分析*/
+        ExecutorService executorService = Executors.newFixedThreadPool(1);
+        executorService.execute(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("test4-1 ok!");
+            }
+        });
+        executorService.execute(new FutureTask(new Callable(){
+            @Override
+            public Object call() throws Exception {
+                System.out.println("test4-2 ok!");
+                return null;
+            }
+        }));
+        executorService.shutdown();//注意使用线程池完成后要关掉线程池
+    }
+
+    private static class ThreadTest1 extends Thread{
+        @Override
+        public void run() {
+            System.out.println("test1 ok!");
+        }
+    }
+
+    private static class ThreadTest2 implements Runnable{
+        @Override
+        public void run() {
+            System.out.println("test2 ok!");
+        }
+    }
+
+    private static class ThreadTest3 implements Callable{
+        @Override
+        public Object call() throws Exception {
+            System.out.println("test3 ok!");
+            return "ok";
+        }
+    }
+}
+
+```
+运行结果：
+```
+test1 ok!
+test2 ok!
+test3 ok!
+thread3 result : ok
+test4-1 ok!
+test4-2 ok!
+
+Process finished with exit code 0
+```
+
+## 三、 Java线程的生命周期
+
+```java
+package java.lang;
+
+public class Thread implements Runnable {
+    //...
+    public enum State {
+        NEW,//新建状态
+        RUNNABLE,//就绪状态&运行状态
+        BLOCKED,//线程等待监听器锁状态
+        WAITING,//无限期等待其他线程状态
+        TIMED_WAITING,//有限期等待其他线程状态
+        TERMINATED;//终止状态
+    }
+    //...
+}
+```
+
+通过Thread中的内部枚举类可以看到，定义了6种线程状态，不过目前主流的Java线程声明周期定义还是将线程定义为5种状态，将WAITING与TIMED_WAITING也归为BLOCKED状态，再加上RUNNING状态。
+
+>新建状态（New）：当线程对象对创建后，即进入了新建状态，如：Thread t = new MyThread();
+>就绪状态（Runnable）：当调用线程对象的start()方法（t.start();），线程即进入就绪状态。处于就绪状态的线程，只是说明此线程已经做好了准备，随时等待CPU调度执行，并不是说执行了t.start()此线程立即就会执行；
+>运行状态（Running）：当CPU开始调度处于就绪状态的线程时，此时线程才得以真正执行，即进入到运行状态。注：就绪状态是进入到运行状态的唯一入口，也就是说，线程要想进入运行状态执行，首先必须处于就绪状态中；
+>阻塞状态（Blocked）：处于运行状态中的线程由于某种原因，暂时放弃对CPU的使用权，停止执行，此时进入阻塞状态，直到其进入到就绪状态，才 有机会再次被CPU调用以进入到运行状态。根据阻塞产生的原因不同，阻塞状态又可以分为三种：
+>​    1.等待阻塞：运行状态中的线程执行wait()方法，使本线程进入到等待阻塞状态；
+>​    2.同步阻塞 -- 线程在获取synchronized同步锁失败(因为锁被其它线程所占用)，它会进入同步阻塞状态；
+>​    3.其他阻塞 -- 通过调用线程的sleep()或join()或发出了I/O请求时，线程会进入到阻塞状态。当sleep()状态超时、join()等待线程终止或者超时、或者I/O处理完毕时，线程重新转入就绪状态。
+>死亡状态（Dead）：线程执行完了或者因异常退出了run()方法，该线程结束生命周期。
+
+## 四、总结
+
+线程有4种创建方式与5种状态。 😊
+
+
+
+> 以上涉及到的Java源码为jdk1.8.0_171
