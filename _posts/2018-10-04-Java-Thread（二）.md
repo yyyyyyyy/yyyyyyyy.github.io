@@ -3,8 +3,6 @@ layout: post
 date:   2018-10-04 13:36:33 +0800
 categories: 
 ---
-# Java Thread（二）
-
 ## 一、java.lang.Runnable
 
 ```java

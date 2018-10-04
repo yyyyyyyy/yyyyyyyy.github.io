@@ -3,8 +3,6 @@ layout: post
 date:   2018-10-04 13:36:31 +0800
 categories: 
 ---
-# Collection
-
 ## Set
 
 ```java

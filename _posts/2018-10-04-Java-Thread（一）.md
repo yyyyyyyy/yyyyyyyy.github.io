@@ -3,7 +3,6 @@ layout: post
 date:   2018-10-04 13:36:32 +0800
 categories: 
 ---
-# Java Thread（一）
 ## 一、 线程 & Java线程
 
 什么是线程?

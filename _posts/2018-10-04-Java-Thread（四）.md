@@ -3,8 +3,6 @@ layout: post
 date:   2018-10-04 13:36:35 +0800
 categories: 
 ---
-# Java Thread（四）
-
 ## 一、java.util.concurrent.Executors
 
 ```java

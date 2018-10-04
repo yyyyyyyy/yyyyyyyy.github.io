@@ -3,8 +3,6 @@ layout: post
 date:   2018-10-04 13:36:34 +0800
 categories: 
 ---
-# Java Thread（三）
-
 ## 一、 java.util.concurrent.Callable
 
 ```java
@@ -13,7 +11,7 @@ package java.util.concurrent;
 
 @FunctionalInterface
 public interface Callable<V> {
-    //返回一个结果或者
+    //返回一个结果或者抛出异常
     V call() throws Exception;
 }
 
@@ -41,7 +39,7 @@ public class FutureTask<V> implements RunnableFuture<V> {
     /** The underlying callable; nulled out after running */
     private Callable<V> callable;//包装的Callable
     /** The result to return or exception to throw from get() */
-    private Object outcome; 返回值，正常值或异常
+    private Object outcome; //返回值，正常值或异常
     /** The thread running the callable; CASed during run() */
     private volatile Thread runner;//存放当前正在运行的线程
     /** Treiber stack of waiting threads */

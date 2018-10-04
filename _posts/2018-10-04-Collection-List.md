@@ -3,7 +3,7 @@ layout: post
 date:   2018-10-04 13:36:31 +0800
 categories: 
 ---
-# Collection
+## Collection
 ```java
 /* Collection继承了Iterable接口。Collection类中抽象定义了集合的基本操作。*/
 public interface Collection<E> extends Iterable<E> {
