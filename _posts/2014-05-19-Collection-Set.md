@@ -1,8 +1,13 @@
 ---
 layout: post
-date:   2018-10-04 13:36:31 +0800
-categories: 
+title:  "Collection(Set)"
+date:   2014-05-19 00:02:01 +0800
+categories: HashSet TreeSet
 ---
+
+
+Java set源码笔记。
+
 ## Set
 
 ```java
@@ -106,7 +111,7 @@ public class HashSet<E>
 }
 ```
 
-## TreeMap
+## TreeSet
 
 ```java
 /*TreeSet继承于AbstractSet，实现了NavigableSet。内部默认通过TreeMap的key实现。非线程安全*/

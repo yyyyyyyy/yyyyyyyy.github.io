@@ -1,8 +1,13 @@
 ---
 layout: post
-date:   2018-10-04 13:36:31 +0800
-categories: 
+title:  "Collection(List)"
+date:   2014-05-19 00:02:00 +0800
+categories: ArrayList LinkedList Vector
 ---
+
+Java List源码笔记。
+
+
 ## Collection
 ```java
 /* Collection继承了Iterable接口。Collection类中抽象定义了集合的基本操作。*/
