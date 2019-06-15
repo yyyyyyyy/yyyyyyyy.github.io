@@ -3,6 +3,7 @@ layout: post
 title:  "Collection(List)"
 date:   2014-05-19 00:02:00 +0800
 categories: ArrayList LinkedList Vector
+comments: true
 ---
 
 Java List源码笔记。
