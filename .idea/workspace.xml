@@ -1,217 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="864ee1dc-fe5c-456d-8fab-034ce5d0c1c5" name="Default" comment="">
+    <list default="true" id="864ee1dc-fe5c-456d-8fab-034ce5d0c1c5" name="Default" comment="new version">
+      <change afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2014-05-19-Git.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2014-05-19-Jenkins.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2014-05-19-Linux.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2014-05-19-Maven.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2014-05-19-设计模式简读.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_sass/_syntax.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_sass/ext/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_sass/ext/_normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_sass/ext/_solarized-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_sass/plain.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/fontello.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/fontello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/fontello.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/fontello.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/fontello.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/portfolio.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Class-&amp;-ClassLoader.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-04-Class-&amp;-ClassLoader.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Collection-List.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-04-Collection-List.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Collection-Set.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-04-Collection-Set.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-GC.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-04-GC.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（一）.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（一）.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（三）.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（三）.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（二）.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（二）.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（五）.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（四）.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（四）.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Map.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-04-Map.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-04-Redis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-计算机硬件基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-04-计算机硬件基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Class-&amp;-ClassLoader.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Java基础（二）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Collection-List.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Collection-List.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Collection-Set.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Collection-Set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Java-Memory-Model.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Java基础（三）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（一）.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Java-Thread（一）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（三）.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Java-Thread（三）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（二）.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Java-Thread（二）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（四）.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Java-Thread（四）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Map.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Map.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-Redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Redis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-SQL优化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-first-note.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Hello-World.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-垃圾回收.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Java基础（一）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-04-计算机硬件基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-计算机硬件基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-09-AMQP.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-AMQP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-09-Java-NIO.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Java-NIO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-09-MYSQL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-09-Reactor-&amp;-Proactor.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-05-19-Reactor-&amp;-Proactor.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="2018-10-04-Java-Thread（三）.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（三）.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="176">
-                <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-                <folding>
-                  <element signature="e#2346#2347#0" expanded="true" />
-                  <element signature="e#2387#2388#0" expanded="true" />
-                  <element signature="e#2417#2418#0" expanded="true" />
-                  <element signature="e#2452#2453#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-10-04-Java-Thread（二）.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（二）.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="5" selection-start-line="5" selection-end-line="5" />
-                <folding>
-                  <element signature="imports" expanded="true" />
-                  <element signature="e#1425#1426#0" expanded="true" />
-                  <element signature="e#1466#1467#0" expanded="true" />
-                  <element signature="e#1897#1898#0" expanded="true" />
-                  <element signature="e#1943#1944#0" expanded="true" />
-                  <element signature="e#5322#5323#0" expanded="true" />
-                  <element signature="e#5386#5387#0" expanded="true" />
-                  <element signature="e#5423#5424#0" expanded="true" />
-                  <element signature="e#5489#5490#0" expanded="true" />
-                  <element signature="e#5679#5680#0" expanded="true" />
-                  <element signature="e#5746#5747#0" expanded="true" />
-                  <element signature="e#5779#5780#0" expanded="true" />
-                  <element signature="e#5820#5821#0" expanded="true" />
-                  <element signature="e#5872#5873#0" expanded="true" />
-                  <element signature="e#5914#5915#0" expanded="true" />
-                  <element signature="e#5964#5965#0" expanded="true" />
-                  <element signature="e#6007#6008#0" expanded="true" />
-                  <element signature="e#6076#6077#0" expanded="true" />
-                  <element signature="e#6120#6121#0" expanded="true" />
-                  <element signature="e#8174#8175#0" expanded="true" />
-                  <element signature="e#8231#8232#0" expanded="true" />
-                  <element signature="e#9185#9186#0" expanded="true" />
-                  <element signature="e#9243#9244#0" expanded="true" />
-                  <element signature="e#9300#9301#0" expanded="true" />
-                  <element signature="e#9343#9344#0" expanded="true" />
-                  <element signature="e#9455#9456#0" expanded="true" />
-                  <element signature="e#9500#9501#0" expanded="true" />
-                  <element signature="e#10284#10285#0" expanded="true" />
-                  <element signature="e#10315#10316#0" expanded="true" />
-                  <element signature="e#10681#10682#0" expanded="true" />
-                  <element signature="e#10708#10709#0" expanded="true" />
-                  <element signature="e#10797#10798#0" expanded="true" />
-                  <element signature="e#10825#10826#0" expanded="true" />
-                  <element signature="e#10893#10894#0" expanded="true" />
-                  <element signature="e#10962#10963#0" expanded="true" />
-                  <element signature="e#11013#11014#0" expanded="true" />
-                  <element signature="e#11086#11087#0" expanded="true" />
-                  <element signature="e#12551#12552#0" expanded="true" />
-                  <element signature="e#12613#12614#0" expanded="true" />
-                  <element signature="e#12927#12928#0" expanded="true" />
-                  <element signature="e#12956#12957#0" expanded="true" />
-                  <element signature="e#18971#18972#0" expanded="true" />
-                  <element signature="e#18997#18998#0" expanded="true" />
-                  <element signature="e#20573#20574#0" expanded="true" />
-                  <element signature="e#20645#20646#0" expanded="true" />
-                  <element signature="e#21269#21270#0" expanded="true" />
-                  <element signature="e#21304#21305#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-10-04-Java-Thread（四）.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（四）.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="5" selection-start-line="5" selection-end-line="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-10-04-Map.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Map.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="5" selection-start-line="5" selection-end-line="5" />
-                <folding>
-                  <element signature="e#269#270#0" expanded="true" />
-                  <element signature="e#326#327#0" expanded="true" />
-                  <element signature="e#603#604#0" expanded="true" />
-                  <element signature="e#668#669#0" expanded="true" />
-                  <element signature="e#346#347#0" expanded="true" />
-                  <element signature="e#394#395#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-10-04-Redis.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Redis.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="5" selection-start-line="5" selection-end-line="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-10-04-计算机硬件基础.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-计算机硬件基础.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="5" selection-start-line="5" selection-end-line="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-10-04-Collection-List.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Collection-List.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-                <folding>
-                  <element signature="e#327#328#0" expanded="true" />
-                  <element signature="e#360#361#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/head.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="13" column="145" selection-start-line="13" selection-start-column="145" selection-end-line="13" selection-end-column="145" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-10-04-GC.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-GC.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/ext/_fonts.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-435" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-AMQP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="105">
-                <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-10-04-Java-Thread（一）.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（一）.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="84">
-                <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-                <folding>
-                  <element signature="e#1108#1109#0" expanded="true" />
-                  <element signature="e#1173#1174#0" expanded="true" />
-                  <element signature="e#1588#1589#0" expanded="true" />
-                  <element signature="e#1643#1644#0" expanded="true" />
-                  <element signature="e#1753#1754#0" expanded="true" />
-                  <element signature="e#1808#1809#0" expanded="true" />
-                </folding>
+                <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -220,19 +135,20 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&amp;gt;</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2018-10-04-welcome-to-jekyll.markdown" />
-        <option value="$PROJECT_DIR$/_site/index.html" />
-        <option value="$PROJECT_DIR$/_layout/index.html" />
-        <option value="$PROJECT_DIR$/about.md" />
-        <option value="$PROJECT_DIR$/_posts/Class &amp; ClassLoader.md" />
-        <option value="$PROJECT_DIR$/_posts/Collection - List.md" />
-        <option value="$PROJECT_DIR$/_posts/Collection - Set.md" />
         <option value="$PROJECT_DIR$/_posts/GC.md" />
         <option value="$PROJECT_DIR$/_posts/Java Memory Model.md" />
         <option value="$PROJECT_DIR$/_posts/Map.md" />
@@ -243,45 +159,71 @@
         <option value="$PROJECT_DIR$/_posts/Java Thread（三）.md" />
         <option value="$PROJECT_DIR$/_posts/Java Thread（四）.md" />
         <option value="$PROJECT_DIR$/_posts/Java Thread（五）.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-10-04-first-note.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-10-04-Class-&amp;-ClassLoader.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-04-Collection-Set.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-10-04-Collection-List.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-10-04-GC.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（一）.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（二）.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（三）.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（四）.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-10-04-Map.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-10-04-Redis.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-04-Class-&amp;-ClassLoader.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-04-GC.md" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-04-Reactor-&amp;-Proactor.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-04-first-note.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Hello-World.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-04-计算机硬件基础.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-04-垃圾回收.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Java基础（JVM）.md" />
+        <option value="$PROJECT_DIR$/_posts/《大话设计模式》简读.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Java基础（二）.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-计算机硬件基础.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-04-Java-Memory-Model.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Java基础（三）.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-设计模式简读.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-GIT.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-MAVEN.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Git.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Jenkins.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Linux.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-04-Collection-List.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-04-Map.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（一）.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Java-Thread（四）.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Maven.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Collection-Set.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Java-Thread（一）.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Java-Thread（二）.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Java-Thread（三）.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-09-Reactor-&amp;-Proactor.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-04-Redis.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-Redis.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-09-Java-NIO.md" />
+        <option value="$PROJECT_DIR$/_posts/2014-05-19-AMQP.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_layouts/home.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$MAVEN_REPOSITORY$" />
-        <option name="mavenHome" value="$USER_HOME$/tools/apache-maven-3.5.3" />
-        <option name="userSettingsFile" value="$USER_HOME$/tools/apache-maven-3.5.3/conf/settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../tools/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../tools/apache-maven-3.5.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
     <option name="skipTests" value="true" />
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
@@ -292,9 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,35 +242,29 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_posts" />
     </key>
   </component>
@@ -349,44 +283,25 @@
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -399,7 +314,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538631780242</updated>
-      <workItem from="1538631781801" duration="3551000" />
+      <workItem from="1538631781801" duration="7020000" />
+      <workItem from="1542779369417" duration="592000" />
+      <workItem from="1556601189142" duration="22000" />
+      <workItem from="1560499677829" duration="13963000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1538632215520</created>
@@ -415,85 +333,145 @@
       <option name="project" value="LOCAL" />
       <updated>1538634838447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add notes">
+      <created>1538635423697</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538635423697</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add notes">
+      <created>1538636602749</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538636602749</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add note">
+      <created>1538638666995</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538638666995</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3551000" />
+    <option name="totallyTimeSpent" value="21597000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="1" y="23" width="1440" height="797" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" visible="true" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info anchor="right" id="Database" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="add notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add notes" />
+    <MESSAGE value="add note" />
+    <MESSAGE value="new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_layout/index.html" />
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（五）.md" />
+    <entry file="file://$PROJECT_DIR$/_site/CNAME">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26205">
+          <folding>
+            <element signature="e#872#876#0" expanded="true" />
+            <element signature="e#882#888#0" expanded="true" />
+            <element signature="e#916#922#0" expanded="true" />
+            <element signature="e#922#926#0" expanded="true" />
+            <element signature="e#958#962#0" expanded="true" />
+            <element signature="e#965#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_site/about/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
+        <state relative-caret-position="616">
           <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="126">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layout/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-479">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -505,37 +483,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Java Memory Model.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="84">
-            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/plainwhite.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Reactor-&amp;-Proactor.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Java基础（一）.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="84">
-            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（五）.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
+        <state split_layout="FIRST">
           <first_editor relative-caret-position="42">
-            <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-first-note.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-计算机硬件基础.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="148">
+            <caret line="8" column="99" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Java基础（二）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="42">
+            <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Java基础（三）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="147">
+            <caret line="7" column="103" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="103" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-设计模式简读.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="147">
+            <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Git.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="5" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Jenkins.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="63">
@@ -545,31 +565,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Class-&amp;-ClassLoader.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Linux.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="84">
-            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <first_editor relative-caret-position="63">
+            <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Collection-Set.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Hello-World.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state split_layout="FIRST">
+          <first_editor>
+            <caret selection-end-line="5" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Collection-List.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Collection-List.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <first_editor>
+            <caret selection-end-line="5" selection-end-column="3" />
             <folding>
               <element signature="e#327#328#0" expanded="true" />
               <element signature="e#360#361#0" expanded="true" />
@@ -579,152 +599,201 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-GC.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Maven.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <first_editor relative-caret-position="163">
+            <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（一）.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Collection-Set.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="84">
-            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <first_editor relative-caret-position="-2832">
+            <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Map.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-6988">
+            <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Java-Thread（一）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="166">
+            <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
             <folding>
-              <element signature="e#1108#1109#0" expanded="true" />
-              <element signature="e#1173#1174#0" expanded="true" />
-              <element signature="e#1588#1589#0" expanded="true" />
-              <element signature="e#1643#1644#0" expanded="true" />
-              <element signature="e#1753#1754#0" expanded="true" />
-              <element signature="e#1808#1809#0" expanded="true" />
+              <element signature="e#1119#1120#0" expanded="true" />
+              <element signature="e#1184#1185#0" expanded="true" />
+              <element signature="e#1599#1600#0" expanded="true" />
+              <element signature="e#1654#1655#0" expanded="true" />
+              <element signature="e#1764#1765#0" expanded="true" />
+              <element signature="e#1819#1820#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（三）.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Java-Thread（二）.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="176">
-            <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <first_editor relative-caret-position="289">
+            <caret line="300" column="29" selection-start-line="300" selection-start-column="29" selection-end-line="300" selection-end-column="29" />
             <folding>
-              <element signature="e#2346#2347#0" expanded="true" />
-              <element signature="e#2387#2388#0" expanded="true" />
-              <element signature="e#2417#2418#0" expanded="true" />
-              <element signature="e#2452#2453#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（二）.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
-            <folding>
-              <element signature="imports" expanded="true" />
-              <element signature="e#1425#1426#0" expanded="true" />
-              <element signature="e#1466#1467#0" expanded="true" />
-              <element signature="e#1897#1898#0" expanded="true" />
-              <element signature="e#1943#1944#0" expanded="true" />
-              <element signature="e#5322#5323#0" expanded="true" />
-              <element signature="e#5386#5387#0" expanded="true" />
-              <element signature="e#5423#5424#0" expanded="true" />
-              <element signature="e#5489#5490#0" expanded="true" />
-              <element signature="e#5679#5680#0" expanded="true" />
-              <element signature="e#5746#5747#0" expanded="true" />
-              <element signature="e#5779#5780#0" expanded="true" />
-              <element signature="e#5820#5821#0" expanded="true" />
-              <element signature="e#5872#5873#0" expanded="true" />
-              <element signature="e#5914#5915#0" expanded="true" />
-              <element signature="e#5964#5965#0" expanded="true" />
-              <element signature="e#6007#6008#0" expanded="true" />
-              <element signature="e#6076#6077#0" expanded="true" />
-              <element signature="e#6120#6121#0" expanded="true" />
-              <element signature="e#8174#8175#0" expanded="true" />
-              <element signature="e#8231#8232#0" expanded="true" />
-              <element signature="e#9185#9186#0" expanded="true" />
-              <element signature="e#9243#9244#0" expanded="true" />
-              <element signature="e#9300#9301#0" expanded="true" />
-              <element signature="e#9343#9344#0" expanded="true" />
-              <element signature="e#9455#9456#0" expanded="true" />
-              <element signature="e#9500#9501#0" expanded="true" />
-              <element signature="e#10284#10285#0" expanded="true" />
-              <element signature="e#10315#10316#0" expanded="true" />
-              <element signature="e#10681#10682#0" expanded="true" />
-              <element signature="e#10708#10709#0" expanded="true" />
-              <element signature="e#10797#10798#0" expanded="true" />
-              <element signature="e#10825#10826#0" expanded="true" />
-              <element signature="e#10893#10894#0" expanded="true" />
-              <element signature="e#10962#10963#0" expanded="true" />
+              <element signature="e#1443#1444#0" expanded="true" />
+              <element signature="e#1484#1485#0" expanded="true" />
+              <element signature="e#1920#1921#0" expanded="true" />
+              <element signature="e#1966#1967#0" expanded="true" />
+              <element signature="e#5345#5346#0" expanded="true" />
+              <element signature="e#5409#5410#0" expanded="true" />
+              <element signature="e#5446#5447#0" expanded="true" />
+              <element signature="e#5512#5513#0" expanded="true" />
+              <element signature="e#5702#5703#0" expanded="true" />
+              <element signature="e#5769#5770#0" expanded="true" />
+              <element signature="e#5802#5803#0" expanded="true" />
+              <element signature="e#5843#5844#0" expanded="true" />
+              <element signature="e#5895#5896#0" expanded="true" />
+              <element signature="e#5937#5938#0" expanded="true" />
+              <element signature="e#5987#5988#0" expanded="true" />
+              <element signature="e#6030#6031#0" expanded="true" />
+              <element signature="e#6099#6100#0" expanded="true" />
+              <element signature="e#6143#6144#0" expanded="true" />
+              <element signature="e#8197#8198#0" expanded="true" />
+              <element signature="e#8254#8255#0" expanded="true" />
+              <element signature="e#9236#9237#0" expanded="true" />
+              <element signature="e#9294#9295#0" expanded="true" />
+              <element signature="e#9351#9352#0" expanded="true" />
+              <element signature="e#9394#9395#0" expanded="true" />
+              <element signature="e#9506#9507#0" expanded="true" />
+              <element signature="e#9551#9552#0" expanded="true" />
+              <element signature="e#10335#10336#0" expanded="true" />
+              <element signature="e#10366#10367#0" expanded="true" />
+              <element signature="e#10732#10733#0" expanded="true" />
+              <element signature="e#10759#10760#0" expanded="true" />
+              <element signature="e#10848#10849#0" expanded="true" />
+              <element signature="e#10876#10877#0" expanded="true" />
+              <element signature="e#10944#10945#0" expanded="true" />
               <element signature="e#11013#11014#0" expanded="true" />
-              <element signature="e#11086#11087#0" expanded="true" />
-              <element signature="e#12551#12552#0" expanded="true" />
-              <element signature="e#12613#12614#0" expanded="true" />
-              <element signature="e#12927#12928#0" expanded="true" />
-              <element signature="e#12956#12957#0" expanded="true" />
-              <element signature="e#18971#18972#0" expanded="true" />
-              <element signature="e#18997#18998#0" expanded="true" />
-              <element signature="e#20573#20574#0" expanded="true" />
-              <element signature="e#20645#20646#0" expanded="true" />
-              <element signature="e#21269#21270#0" expanded="true" />
-              <element signature="e#21304#21305#0" expanded="true" />
+              <element signature="e#11064#11065#0" expanded="true" />
+              <element signature="e#11137#11138#0" expanded="true" />
+              <element signature="e#12602#12603#0" expanded="true" />
+              <element signature="e#12664#12665#0" expanded="true" />
+              <element signature="e#12978#12979#0" expanded="true" />
+              <element signature="e#13007#13008#0" expanded="true" />
+              <element signature="e#19022#19023#0" expanded="true" />
+              <element signature="e#19048#19049#0" expanded="true" />
+              <element signature="e#20624#20625#0" expanded="true" />
+              <element signature="e#20696#20697#0" expanded="true" />
+              <element signature="e#21320#21321#0" expanded="true" />
+              <element signature="e#21355#21356#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Java-Thread（四）.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Java-Thread（三）.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Map.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <first_editor relative-caret-position="244">
+            <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
             <folding>
-              <element signature="e#269#270#0" expanded="true" />
-              <element signature="e#326#327#0" expanded="true" />
-              <element signature="e#603#604#0" expanded="true" />
-              <element signature="e#668#669#0" expanded="true" />
-              <element signature="e#346#347#0" expanded="true" />
-              <element signature="e#394#395#0" expanded="true" />
+              <element signature="e#2353#2354#0" expanded="true" />
+              <element signature="e#2394#2395#0" expanded="true" />
+              <element signature="e#2424#2425#0" expanded="true" />
+              <element signature="e#2459#2460#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Redis.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-Reactor-&amp;-Proactor.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <first_editor relative-caret-position="1449">
+            <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-计算机硬件基础.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-04-SQL优化.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-169" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Java-Thread（四）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="5" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Reactor-&amp;-Proactor.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="5" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Redis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="63">
+            <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-Java-NIO.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="5" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/portfolio.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-05-19-AMQP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="105">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -732,8 +801,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/ext/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="145" selection-start-line="13" selection-start-column="145" selection-end-line="13" selection-end-column="145" />
         </state>
       </provider>
     </entry>

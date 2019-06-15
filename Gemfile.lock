@@ -48,6 +48,8 @@ GEM
       jekyll-seo-tag (~> 2.1)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
+    plainwhite (0.5.0)
+      jekyll (~> 3.8)
     public_suffix (3.0.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
@@ -68,6 +70,7 @@ DEPENDENCIES
   jekyll (~> 3.8.4)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
+  plainwhite
   tzinfo-data
 
 BUNDLED WITH

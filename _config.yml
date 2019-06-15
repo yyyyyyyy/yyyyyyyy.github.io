@@ -1,13 +1,30 @@
 title: 三土同学
+author: Yao chow
 email: yao.scofiled@gmail.com
-description: word changes the world
+description: > # this means to ignore newlines until "show_exerpts:"
+  大海阿，你全是水。
+show_excerpts: true # set to true to show excerpts on the homepage
 
-baseurl: ""
-url: ""
-twitter_username:
-github_username:  yyyyyyyy
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Yao chow
+  tagline: Developer
+  date_format: "%b %-d, %Y"
+  sitemap: true # set to true to generate sitemap.xml content
+  disqus_shortname: yaochou
+  analytics_id: 'UA-142174784-1'
+  show_excerpts: true
 
-markdown: kramdown
-theme: minima
+  social_links:
+    github: yyyyyyyy
+    linkedIn: in/%E5%9E%9A-%E5%91%A8-7b10b478/
+    rss: 三土同学
+    facebook: yao.scofiled
+    telegram: yaochou
+theme: plainwhite
+
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
+
+remote_theme: thelehhman/plainwhite-jekyll
