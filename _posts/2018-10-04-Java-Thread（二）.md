@@ -1,8 +1,13 @@
 ---
 layout: post
-date:   2018-10-04 13:36:33 +0800
-categories: 
+title:  "Java 线程（二）"
+date:   2014-05-19 00:02:04 +0800
+categories: 线程 Runnable Thread
 ---
+
+
+Java Thread源码笔记。
+
 ## 一、java.lang.Runnable
 
 ```java
@@ -47,7 +52,10 @@ public class Thread implements Runnable {
     }
 
     private volatile String name;//线程名称，默认"Thread-" + nextThreadNum()。
-    private int            priority;//优先级，1～10。运行环境不一定都会支持分成10级，如果运行环境只支持5级，那么6和5效果是一样的。
+    //优先级，1～10。运行环境不一定都会支持分成10级，
+    // 如果运行环境只支持5级，那么6和5效果是一样的。
+    private int            priority;
+    
     private Thread         threadQ;
     private long           eetop;
     private boolean     single_step;
@@ -67,7 +75,8 @@ public class Thread implements Runnable {
     private long nativeParkEventPointer;
     private long tid;//线程ID
     private static long threadSeqNumber;
-    private volatile int threadStatus = 0;//NEW,RUNNABLE,BLOCKED,WAITING,TIMED_WAITING,TERMINATED 线程的六种状态
+    //NEW,RUNNABLE,BLOCKED,WAITING,TIMED_WAITING,TERMINATED 线程的六种状态
+    private volatile int threadStatus = 0;
     private static synchronized long nextThreadID() {
         return ++threadSeqNumber;//线程序列
     }
@@ -286,8 +295,10 @@ public class Thread implements Runnable {
         synchronized (blockerLock) {
             /*如果当前线程状态是阻塞状态
              1.如果是由于wait()、sleep()、join()等发生阻塞的，会清除阻塞状态并抛出InterruptedException异常
-             2.如果是由于java.nio.channels.InterruptibleChannel中IO操作发生的阻塞，会关闭channel，将线程状态设置为interrupt状态并抛出java.nio.channels.ClosedByInterruptException异常
-             3.如果是由于java.nio.channels.Selector阻塞，会将线程状态设置为interrupt状态，立即从selecor中收到返回，可能是个非0值，就像调用了Selector中wakeup方法。*/
+             2.如果是由于java.nio.channels.InterruptibleChannel中IO操作发生的阻塞，会关闭channel，
+             将线程状态设置为interrupt状态并抛出java.nio.channels.ClosedByInterruptException异常
+             3.如果是由于java.nio.channels.Selector阻塞，会将线程状态设置为interrupt状态，
+             立即从selecor中收到返回，可能是个非0值，就像调用了Selector中wakeup方法。*/
             Interruptible b = blocker;
             if (b != null) {
                 interrupt0();           // Just to set the interrupt flag
