@@ -1,8 +1,13 @@
 ---
 layout: post
-date:   2018-10-04 13:36:32 +0800
-categories: 
+title:  "Java 线程（一）"
+date:   2014-05-19 00:02:03 +0800
+categories: 线程
 ---
+
+
+Java线程简介。
+
 ## 一、 线程 & Java线程
 
 什么是线程?
@@ -30,7 +35,8 @@ public class ThreadTest {
         /*以上两种方式实质上并没有什么不同，个人认为不同在于一个是类，一个是接口，接口更利于扩展*/
         
         /*3.实现Callable接口
-         *FutureTask实现了RunnableFuture接口，RunnableFuture接口继承了Runnable和Future接口。FutureTask重写了run()方法与get()方法。
+         *FutureTask实现了RunnableFuture接口，RunnableFuture接口继承了Runnable和Future接口。
+         *FutureTask重写了run()方法与get()方法。
 		 *Callable提供了“V call() throws Exception”方法可以返回结果，可以通过Future接口中的get方法获取。*/
         FutureTask ft = new FutureTask(new ThreadTest3());
         Thread thread3 = new Thread(ft);
