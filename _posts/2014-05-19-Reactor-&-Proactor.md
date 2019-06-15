@@ -1,8 +1,14 @@
 ---
 layout: post
-date:   2018-10-09 13:36:31 +0800
-categories: 
+title:  "Reactor&Proactor"
+date:   2014-05-19 00:03:00 +0800
+categories: 多路复用 Reactor Proactor
 ---
+
+
+IO多路复用。
+
+
 # Reactor&Proactor
 
 > 一般情况下，I/O多路复用机制都依赖于一个事件多路分离器（Event Demultiplexer）。分离器对象可将来自事件源的I/O事件分离出来，并分发到对应的read/write事件处理器(Event Handler) 。
