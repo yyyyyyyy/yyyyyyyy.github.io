@@ -1,8 +1,12 @@
 ---
 layout: post
-date:   2018-10-04 13:36:35 +0800
-categories: 
+title:  "Java 线程（四）"
+date:   2014-05-19 00:02:06 +0800
+categories: 线程 Executors ThreadPools
 ---
+
+Java Executors、ThreadPools源码笔记。
+
 ## 一、java.util.concurrent.Executors
 
 ```java
