@@ -1,8 +1,12 @@
 ---
 layout: post
-date:   2018-10-04 13:36:34 +0800
-categories: 
+title:  "Java 线程（三）"
+date:   2014-05-19 00:02:05 +0800
+categories: 线程 Callable FutureTask
 ---
+
+Java Callable、FutureTask源码笔记。
+
 ## 一、 java.util.concurrent.Callable
 
 ```java
@@ -81,7 +85,8 @@ public class FutureTask<V> implements RunnableFuture<V> {
             return result;
         }
       }
-      这步操作实际上是新建了RunnableAdapter对象，RunnableAdapter是Executors的静态内部类，实现了Callable接口。可以看到每次返回的都是固定的返回值*/
+      这步操作实际上是新建了RunnableAdapter对象，RunnableAdapter是Executors的静态内部类，
+      实现了Callable接口。可以看到每次返回的都是固定的返回值*/
     public FutureTask(Runnable runnable, V result) {
         this.callable = Executors.callable(runnable, result);
         this.state = NEW;       // ensure visibility of callable
