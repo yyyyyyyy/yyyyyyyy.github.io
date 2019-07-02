@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ReentrantLock"
-date:   2014-05-19 00:02:07 +0800
+date:   2014-05-19 00:02:08 +0800
 categories: AQS CAS ReentrantLock
 ---
 
@@ -106,13 +106,13 @@ public class ReentrantLock implements Lock, java.io.Serializable {
         private static final long serialVersionUID = -5179523762034025860L;
 
         abstract void lock();
-				//尝试获取非公平锁
+		//尝试获取非公平锁
         final boolean nonfairTryAcquire(int acquires) {
             final Thread current = Thread.currentThread();
             int c = getState();//获取当前锁的状态
             if (c == 0) {//状态0代表锁处于空闲状态，通过CAS修改状态为1（获取锁）.
                 if (compareAndSetState(0, acquires)) {
-                  //设置排他锁是当前线程
+                  //设置获取到排他锁是当前线程
                     setExclusiveOwnerThread(current);
                     return true;
                 }
@@ -154,7 +154,7 @@ public class ReentrantLock implements Lock, java.io.Serializable {
         }
 
         // Methods relayed from outer class
-				//当前线程是不是排他锁拥有者
+		//当前线程是不是排他锁拥有者
         final Thread getOwner() {
             return getState() == 0 ? null : getExclusiveOwnerThread();
         }
@@ -441,6 +441,9 @@ public class ReentrantLock implements Lock, java.io.Serializable {
     }
 ```
 
+
+以上就是ReentrantLock的源码，根据源码可以了解到，ReentrantLock是如何重入的。
+再一个就是公平锁和非公平锁，公平锁在新线程获取锁的时候会直接进行排队；而非公平锁会直接获取锁，失败后才会进行排队。
 
 
 J.U.C中最核心的就是AQS和CAS，基本上都是围绕着这两部分。
