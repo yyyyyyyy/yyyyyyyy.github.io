@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ReentrantLock"
+title:  "J.U.C(ReentrantLock)"
 date:   2014-05-19 00:02:08 +0800
 categories: AQS CAS ReentrantLock
 ---
