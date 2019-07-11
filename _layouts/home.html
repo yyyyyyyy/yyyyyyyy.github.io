@@ -10,9 +10,6 @@ layout: default
 
 {%- if site.posts.size > 0 -%}
 <ul class="posts">
-    <li>
-        <h1 id="info" style="color: #93a1a1">--------------</h1>
-    </li>
     {%- for post in site.posts -%}
     {%- if post.categories[0] == "Hello" -%}
     <li>
@@ -37,12 +34,6 @@ layout: default
     </li>
     {%- endif -%}
     {%- endfor -%}
-
-    <br/><br/>
-
-    <li>
-        <h1 id="Java Base" style="color: #93a1a1">--------------Java基础学习笔记</h1>
-    </li>
     {%- for post in site.posts -%}
     {%- if post.categories[0] == "Java基础" -%}
     <li>
@@ -67,12 +58,6 @@ layout: default
     </li>
     {%- endif -%}
     {%- endfor -%}
-
-    <br/><br/>
-
-    <li>
-        <h1 id="MultiThread" style="color: #93a1a1">--------------J.U.C学习笔记</h1>
-    </li>
     {%- for post in site.posts -%}
     {%- if post.categories[0] == "JUC" -%}
     <li>
@@ -96,12 +81,6 @@ layout: default
     </li>
     {%- endif -%}
     {%- endfor -%}
-
-    <br/><br/>
-
-    <li>
-        <h1 id="frame" style="color: #93a1a1">--------------Java框架中间件学习笔记</h1>
-    </li>
     {%- for post in site.posts -%}
     {%- if post.categories[0] == "FRAME" -%}
     <li>
@@ -126,11 +105,6 @@ layout: default
     {%- endif -%}
     {%- endfor -%}
 
-    <br/><br/>
-
-    <li>
-        <h1 id="tools" style="color: #93a1a1">--------------Java工具学习笔记</h1>
-    </li>
     {%- for post in site.posts -%}
     {%- if post.categories[0] == "TOOLS" -%}
     <li>
