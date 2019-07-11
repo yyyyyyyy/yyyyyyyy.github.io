@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java 基础（三）"
+title:  "Java Memory Model"
 date:   2014-05-19 00:00:05 +0800
 categories: JMM volatile happen-before final
 comments: true

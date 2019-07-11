@@ -1,37 +1,14 @@
 ---
 layout: post
-title:  "Java 基础（二）"
+title:  "Java ClassLoader"
 date:   2014-05-19 00:00:03 +0800
-categories: Class ClassLoader
+categories: ClassLoader 双亲委派
 comments: true
 ---
 
-Java 基础内容，包括Class结构、ClassLoader、双亲委派。
+ClassLoader、双亲委派。
 
 
-
-## 类文件结构（Class）
-一个编译后的类文件包含下面的结构：
-```
-ClassFile {
-    u4:magic;
-    u2:minor_version;
-    u2:major_version;
-    u2:constant_pool_count;
-    cp_info:constant_pool[constant_pool_count -1];
-    u2:access_flags;
-    u2:this_class;
-    u2:super_class;
-    u2:interfaces_count;
-    u2:interfaces[interfaces_count];
-    u2:fields_count;
-    field_info:fields[fields_count];
-    u2:methods_count;
-    method_info:methods[methods_count];
-    u2:attributes_count;
-    attribute_info:attributes[attributes_count];
-}
-```
 ## 类加载（ClassLoader）
 * 加载：查找并加载类的二进制数据
     * 通过一个类的全限定名来获取其定义的二进制字节流。
