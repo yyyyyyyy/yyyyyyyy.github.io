@@ -2,7 +2,7 @@
 layout: post
 title:  "J.U.C(AtomicInteger)"
 date:   2014-05-19 00:02:09 +0800
-categories: CAS AtomicInteger
+categories: JUC AtomicInteger CAS
 ---
 
 提供整型变量原子性操作

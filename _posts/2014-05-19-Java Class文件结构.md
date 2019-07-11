@@ -2,15 +2,11 @@
 layout: post
 title:  "Java Class 文件结构"
 date:   2014-05-19 00:00:03 +0800
-categories: Class
+categories: Java基础 Class
 comments: true
-
+excerpt: Java Class文件结构笔记
 
 ---
-
-了解Class文件结构
-
-
 
 ## 类文件结构（Class）
 
@@ -182,3 +178,5 @@ Class文件、字段表、方法表都可以携带自己的属性表集合，以
 | RuntimeInvisibleParameterAnnotations | 方法表中                 | JDK1.5中新增的属性，作用与RuntimeInvisibleAnnotations类似，只不过作用对象为方法的参数。 |
 | AnnotationDefault                    | 方法表中                 | JDK1.5中新增的属性，用于记录注解类元素的默认值               |
 | BootstrapMethods                     | 类中                     | JDK1.7新增的属性，用于保存invokedynamic指令引用的引导方法限定符 |
+
+以上，看完后相信对类加载会有更深层次的理解。

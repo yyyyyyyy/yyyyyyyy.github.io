@@ -14,7 +14,7 @@ plainwhite:
   sitemap: true # set to true to generate sitemap.xml content
   disqus_shortname: yaochou
   analytics_id: 'UA-142174784-1'
-  show_excerpts: true
+  show_excerpts: false
 
   social_links:
     github: yyyyyyyy

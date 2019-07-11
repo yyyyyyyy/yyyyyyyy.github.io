@@ -2,7 +2,7 @@
 layout: post
 title:  "Reactor&Proactor"
 date:   2014-05-19 00:03:00 +0800
-categories: 多路复用 Reactor Proactor
+categories: FRAME 多路复用 Reactor Proactor
 ---
 
 

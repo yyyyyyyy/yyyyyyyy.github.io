@@ -2,13 +2,10 @@
 layout: post
 title:  "Java Garbage Collection"
 date:   2014-05-19 00:00:02 +0800
-categories: JVM 垃圾回收 收集器
+categories: Java基础 JVM 垃圾回收 收集器
 comments: true
-
+excerpt: GC Roots Tracing、GC 常用算法、GC 收集器。
 ---
-
-Java 基础内容，GC Roots Tracing、GC 常用算法、GC 收集器。
-
 ## 一、GC Roots Tracing
 
 如何判断实例是否还应该被GC呢？
@@ -110,3 +107,4 @@ Java 基础内容，GC Roots Tracing、GC 常用算法、GC 收集器。
    7. 支持Numa架构
    8. 并行
    9. 单代
+

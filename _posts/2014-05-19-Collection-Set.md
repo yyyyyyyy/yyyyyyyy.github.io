@@ -2,7 +2,7 @@
 layout: post
 title:  "Collection(Set)"
 date:   2014-05-19 00:02:01 +0800
-categories: HashSet TreeSet
+categories: Java基础 HashSet TreeSet
 comments: true
 ---
 

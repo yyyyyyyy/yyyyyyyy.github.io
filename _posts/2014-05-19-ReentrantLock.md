@@ -2,7 +2,7 @@
 layout: post
 title:  "J.U.C(ReentrantLock)"
 date:   2014-05-19 00:02:08 +0800
-categories: AQS CAS ReentrantLock
+categories: JUC AQS CAS ReentrantLock
 ---
 
 ReentrantLock 可重入锁独占锁。
@@ -365,7 +365,7 @@ public class ReentrantLock implements Lock, java.io.Serializable {
 
 涉及到的AQS方法
 
-```java
+```
     public final void acquire(int arg) {
       	//tryAcquire方法是子类重写的，公平锁和非公平锁实现不一样，见上面的代码
         if (!tryAcquire(arg) &&

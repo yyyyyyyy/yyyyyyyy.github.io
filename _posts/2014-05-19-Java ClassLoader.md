@@ -2,13 +2,10 @@
 layout: post
 title:  "Java ClassLoader"
 date:   2014-05-19 00:00:03 +0800
-categories: ClassLoader 双亲委派
+categories: Java基础 ClassLoader 双亲委派
 comments: true
+excerpt: ClassLoader、双亲委派。
 ---
-
-ClassLoader、双亲委派。
-
-
 ## 类加载（ClassLoader）
 * 加载：查找并加载类的二进制数据
     * 通过一个类的全限定名来获取其定义的二进制字节流。
