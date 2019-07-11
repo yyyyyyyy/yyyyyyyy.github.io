@@ -2,7 +2,7 @@
 layout: post
 title:  "Java 线程（二）"
 date:   2014-05-19 00:02:04 +0800
-categories: 线程 Runnable Thread
+categories: JUC 线程 Runnable Thread
 ---
 
 
