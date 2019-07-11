@@ -2,7 +2,7 @@
 layout: post
 title:  "Java 线程（四）"
 date:   2014-05-19 00:02:06 +0800
-categories: 线程 Executors ThreadPools
+categories: JUC 线程 Executors ThreadPools
 ---
 
 Java Executors、ThreadPools源码笔记。
