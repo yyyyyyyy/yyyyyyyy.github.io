@@ -2,7 +2,7 @@
 layout: post
 title:  "Java 线程（三）"
 date:   2014-05-19 00:02:05 +0800
-categories: 线程 Callable FutureTask
+categories: JUC 线程 Callable FutureTask
 ---
 
 Java Callable、FutureTask源码笔记。
