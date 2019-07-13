@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java 线程（一）"
+title:  "【自撸】初识Java线程"
 date:   2014-05-19 00:02:03 +0800
 categories: JUC
 comments: true
