@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java 线程（二）"
+title:  "【自撸】Thread类"
 date:   2014-05-19 00:02:04 +0800
 categories: JUC 线程 Runnable Thread
 ---
