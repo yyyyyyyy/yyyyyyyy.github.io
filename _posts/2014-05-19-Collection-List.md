@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【自撸】Collection(List)"
+title:  "【自撸】Collection（List）"
 date:   2014-05-19 00:02:00 +0800
 categories: Java基础 ArrayList LinkedList Vector
 comments: true
