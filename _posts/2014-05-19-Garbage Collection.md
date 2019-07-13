@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【读书笔记】Java Garbage Collection"
+title:  "【读书】Java Garbage Collection"
 date:   2014-05-19 00:00:02 +0800
 categories: Java基础 JVM 垃圾回收 收集器
 comments: true
