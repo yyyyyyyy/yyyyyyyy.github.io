@@ -1,15 +1,10 @@
 ---
 layout: post
-title:  "Collection(Set)"
+title:  "【自撸】Collection(Set)"
 date:   2014-05-19 00:02:01 +0800
 categories: Java基础 HashSet TreeSet
 comments: true
 ---
-
-
-Java set源码笔记。
-
-## Set
 
 ```java
 /*Set继承于Collection，是一个不予许有重复元素的集合，定义了集合的基础方法*/

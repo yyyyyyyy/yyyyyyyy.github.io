@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-
+唱歌还行的程序员。

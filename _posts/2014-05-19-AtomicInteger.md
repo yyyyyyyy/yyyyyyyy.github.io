@@ -1,13 +1,9 @@
 ---
 layout: post
-title:  "J.U.C(AtomicInteger)"
+title:  "【自撸】J.U.C(AtomicInteger)"
 date:   2014-05-19 00:02:09 +0800
 categories: JUC AtomicInteger CAS
 ---
-
-提供整型变量原子性操作
-
-## AtomicInteger
 
 原子操作的整型对象，AtomicLong、AtomicBoolean与AtomicInteger差不多。
 

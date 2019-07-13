@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java Class 文件结构"
+title:  "【摘录】Java Class 文件结构"
 date:   2014-05-19 00:00:03 +0800
 categories: Java基础 Class
 comments: true
@@ -8,7 +8,6 @@ excerpt: Java Class文件结构笔记
 
 ---
 
-## 类文件结构（Class）
 
 一个编译后的类文件包含下面的结构：
 

@@ -1,30 +1,34 @@
 title: 三土同学
-author: Yao chow
-email: yao.scofiled@gmail.com
-description: > # this means to ignore newlines until "show_exerpts:"
-  大海阿，你全是水。
-show_excerpts: true # set to true to show excerpts on the homepage
+description: "记录"
+author:
+  name: "Yaochow"
+  email: "yao.scofiled@gmail.com"
+  url: "https://blog.yaochow.com"
 
-sass:
-  sass_dir: _sass
-plainwhite:
-  name: Yao chow
-  tagline: Developer
-  date_format: "%b %-d, %Y"
-  sitemap: true # set to true to generate sitemap.xml content
-  disqus_shortname: yaochou
-  analytics_id: 'UA-142174784-1'
-  show_excerpts: false
+baseurl: /
 
-  social_links:
-    github: yyyyyyyy
-    linkedIn: in/%E5%9E%9A-%E5%91%A8-7b10b478/
-    rss: 三土同学
-    facebook: yao.scofiled
-    telegram: yaochou
-theme: plainwhite
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 7
+paginate_path: /page/:num/
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
 
-remote_theme: thelehhman/plainwhite-jekyll
+# Custom variables
+owner : "Yaochow"
+year : "2019"
+
+google_analytics: 'UA-142174784-1'
