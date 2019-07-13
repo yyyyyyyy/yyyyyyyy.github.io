@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java 线程（三）"
+title:  "【自撸】J.U.C（FutureTask）"
 date:   2014-05-19 00:02:05 +0800
 categories: JUC 线程 Callable FutureTask
 ---
