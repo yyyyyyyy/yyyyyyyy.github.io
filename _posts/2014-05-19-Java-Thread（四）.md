@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java 线程（四）"
+title:  "【自撸】J.U.C（Executors）"
 date:   2014-05-19 00:02:06 +0800
 categories: JUC 线程 Executors ThreadPools
 ---
