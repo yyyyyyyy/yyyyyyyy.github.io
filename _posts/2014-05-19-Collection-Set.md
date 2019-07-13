@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【自撸】Collection(Set)"
+title:  "【自撸】Collection（Set）"
 date:   2014-05-19 00:02:01 +0800
 categories: Java基础 HashSet TreeSet
 comments: true
