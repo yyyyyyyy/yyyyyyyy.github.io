@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【源码】ReentrantLock"
+title:  "【源码】java.util.concurrent.locks.ReentrantLock"
 date:   2014-05-19 00:00:00 +0800
 categories: 
 ---

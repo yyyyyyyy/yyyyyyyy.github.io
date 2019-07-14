@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【源码】AtomicInteger"
+title:  "【源码】java.util.concurrent.atomic.AtomicInteger"
 date:   2014-05-19 00:00:00 +0800
 categories: 
 ---
