@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "【自撸】J.U.C（AtomicInteger）"
-date:   2014-05-19 00:02:09 +0800
-categories: JUC AtomicInteger CAS
+title:  "【源码】AtomicInteger"
+date:   2014-05-19 00:00:00 +0800
+categories: 
 ---
 
 原子操作的整型对象，AtomicLong、AtomicBoolean与AtomicInteger差不多。

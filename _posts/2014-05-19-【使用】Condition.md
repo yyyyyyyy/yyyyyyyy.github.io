@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "【自撸】J.U.C（了解Condition）"
-date:   2014-05-19 00:02:10 +0800
-categories: JUC Condition wait() notify() 
+title:  "【使用】Condition"
+date:   2014-05-19 00:00:00 +0800
+categories:  
 ---
 
 Condition 可以对锁进行更精确的控制。

@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "【摘录】Java Class 文件结构"
-date:   2014-05-19 00:00:03 +0800
-categories: Java基础 Class
+title:  "【学习】Java Class 文件结构"
+date:   2014-05-19 00:00:00 +0800
+categories: 
 comments: true
-excerpt: Java Class文件结构笔记
+excerpt: 
 
 ---
 

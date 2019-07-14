@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "【读书】Java ClassLoader"
-date:   2014-05-19 00:00:03 +0800
-categories: Java基础 ClassLoader 双亲委派
+title:  "【学习】Java ClassLoader"
+date:   2014-05-19 00:00:00 +0800
+categories: 
 comments: true
-excerpt: ClassLoader、双亲委派。
+excerpt: 
 ---
 ## 类加载（ClassLoader）
 * 加载：查找并加载类的二进制数据

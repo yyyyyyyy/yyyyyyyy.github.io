@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "【摘录】Java Memory Model"
-date:   2014-05-19 00:00:05 +0800
-categories: Java基础 JMM volatile happen-before final
+title:  "【学习】Java Memory Model"
+date:   2014-05-19 00:00:00 +0800
+categories: 
 comments: true
-excerpt: JMM概念、volatile、重排序等。
+excerpt: 
 ---
 
 摘自[深入理解Java内存模型](http://www.infoq.com/cn/articles/java-memory-model-1)。

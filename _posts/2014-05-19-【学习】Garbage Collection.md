@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "【读书】Java Garbage Collection"
-date:   2014-05-19 00:00:02 +0800
-categories: Java基础 JVM 垃圾回收 收集器
+title:  "【学习】Java Garbage Collection"
+date:   2014-05-19 00:00:00 +0800
+categories: 
 comments: true
-excerpt: GC Roots Tracing、GC 常用算法、GC 收集器。
+excerpt: 
 ---
 ## 一、GC Roots Tracing
 
