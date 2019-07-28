@@ -3,6 +3,8 @@ layout: default
 ---
 
 <section>
+
+<!--    <h2 class="header-link">Java程序员学习笔记</h2>-->
     {% if site.posts[0] %}
 
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
@@ -10,7 +12,34 @@ layout: default
     {% if currentyear == firstpostyear %}
     <h3>This year's posts</h3>
     {% else %}
-    <h3>{{ firstpostyear }}</h3>
+    {% if firstpostyear == '2013' %}
+    {% assign _category = '软实力' %}
+    {% assign _info = '' %}
+    {% endif %}
+    {% if firstpostyear == '2014' %}
+    {% assign _category = '工作必备' %}
+    {% assign _info = '工作中会用到的工具，除了Java基础之外，如果掌握了这些至少达到了可以应付工作的程度' %}
+    {% endif %}
+    {% if firstpostyear == '2015' %}
+    {% assign _category = 'Java虚拟机基础' %}
+    {% assign _info = '这个系列没有实操，理解了这部分理论知识在工作中会更得心应手' %}
+    {% endif %}
+    {% if firstpostyear == '2016' %}
+    {% assign _category = 'Java集合&Map' %}
+    {% assign _info = '通过源码更深入的理解集合&Map系列API' %}
+    {% endif %}
+    {% if firstpostyear == '2017' %}
+    {% assign _category = 'Java并发编程' %}
+    {% assign _info = '接触更高级一些的编程，通过阅读这部分源码更可以学习大神们的一些编程思想' %}
+    {% endif %}
+    {% if firstpostyear == '2018' %}
+    {% assign _category = 'Java框架' %}
+    {% assign _info = '（使编程更快速更简洁更系统化，通过阅读这部分源码提高编程的灵活性，深入了解抽象、多态）' %}
+    {% endif %}
+    <div>
+        <h3 style="display: inline-block">{{ _category }}</h3>
+        <p style="display: inline-block">{{ _info }}</p>
+    </div>
     {% endif %}
 
     {%for post in site.posts %}
@@ -21,11 +50,40 @@ layout: default
         {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
         {% if year != nyear %}
     </ul>
-    <h3>{{ post.date | date: '%Y' }}</h3>
+    {% assign _date = post.date | date: '%Y' %}
+    {% if _date == '2013' %}
+    {% assign _category = '软实力' %}
+    {% assign _info = '' %}
+    {% endif %}
+    {% if _date == '2014' %}
+    {% assign _category = '工作必备' %}
+    {% assign _info = '（工作中会用到的工具，除了Java基础之外，如果掌握了这些至少达到了可以应付工作的程度）' %}
+    {% endif %}
+    {% if _date == '2015' %}
+    {% assign _category = 'Java虚拟机基础' %}
+    {% assign _info = '（这个系列没有实操，理解了这部分理论知识在工作中会更得心应手）' %}
+    {% endif %}
+    {% if _date == '2016' %}
+    {% assign _category = 'Java集合&Map' %}
+    {% assign _info = '（通过源码更深入的理解集合&Map系列API）' %}
+    {% endif %}
+    {% if _date == '2017' %}
+    {% assign _category = 'Java并发编程' %}
+    {% assign _info = '（接触更高级一些的编程，通过阅读这部分源码更可以学习大神们的一些编程思想）' %}
+    {% endif %}
+    {% if _date == '2018' %}
+    {% assign _category = 'Java框架' %}
+    {% assign _info = '（使编程更快速更简洁更系统化，通过阅读这部分源码提高编程的灵活性，深入了解抽象、多态）' %}
+    {% endif %}
+    <div>
+        <h3 style="display: inline-block">{{ _category }}</h3>
+        <p style="display: inline-block">{{ _info }}</p>
+    </div>
     <ul>
         {% endif %}
         {% endunless %}
-        <li><time>{{ post.date | date:"%d %b" }} - </time>
+        <li>
+<!--            <time>{{ post.date | date:"%d %b" }} - </time>-->
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 {{ post.title }}
             </a>

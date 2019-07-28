@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Java ClassLoader"
+title:  "【介绍】Java ClassLoader"
 date:   2015-05-19 00:01:00 +0800
 categories: 
 comments: true
 excerpt: 
 ---
-## 类加载（ClassLoader）
+### 类加载（ClassLoader）
 * 加载：查找并加载类的二进制数据
     * 通过一个类的全限定名来获取其定义的二进制字节流。
     * 将这个字节流所代表的静态存储结构转化为方法区的运行时数据结构。

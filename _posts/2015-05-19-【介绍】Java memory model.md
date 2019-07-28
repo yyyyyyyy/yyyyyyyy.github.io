@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java Memory Model"
+title:  "【介绍】Java Memory Model"
 date:   2015-05-19 01:00:00 +0800
 categories: 
 comments: true

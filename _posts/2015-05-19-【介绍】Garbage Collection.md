@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Java垃圾回收机制"
+title:  "【介绍】Java垃圾回收机制"
 date:   2015-05-19 00:03:00 +0800
 categories: 
 comments: true
 excerpt: 
 ---
-## 一、GC Roots Tracing
+### GC Roots Tracing
 
 如何判断实例是否还应该被GC呢？
 
@@ -22,7 +22,7 @@ excerpt:
     - 方法区中静态属性引用的对象
     - Native方法中引用的对象
 
-## 二、GC 常用算法
+### GC 常用算法
 
 1. 标记-清除算法：
 
@@ -45,7 +45,7 @@ excerpt:
 
    火车算法把成熟对象空间划分为固定长度的内存块，算法每次在一个块中单独执行。每个块属于一个集合。
 
-## 三、GC 收集器
+### GC 收集器
 
 1. Serial收集器：
 
