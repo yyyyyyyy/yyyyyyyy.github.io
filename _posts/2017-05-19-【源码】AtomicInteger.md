@@ -222,4 +222,4 @@ public class AtomicInteger extends Number implements java.io.Serializable {
 另：AtomicLong、AtomicBoolean与AtomicInteger差不多，这里直接用AtomicInteger作为栗子。
 
 
-Java源码为jdk1.8.0_171
+> Java源码为jdk1.8.0_171
